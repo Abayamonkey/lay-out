@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    background-color: blue;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+   border-radius: 50%; 
+   background-color: coral;
+}
+.box {
+    width: 25%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+.card {
+    width: 90%;
+    height: 95%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+}
+.two {
+    width: 90%;
+    height: 20%;
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.neg {
+    width: 90%;
+}
